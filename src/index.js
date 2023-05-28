@@ -1,5 +1,3 @@
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import throttle from 'lodash.throttle';
 import changeTheme from './js/changeTheme';
 import { userPositionConsent, weatherMarkup } from './js/weatherServiceMain';
 import { createCalendar } from './js/renderCalendar';
@@ -16,9 +14,12 @@ import {
   getDataForMarkupPopularNews,
 } from './js/getDataForMarkupNews';
 import LocalStorageService from './js/localStorage';
+
 const localStorageService = new LocalStorageService();
 const newsApiService = new NewsApiService();
 import changeStatusNews from './js/changeStatusNews';
+import { Notify } from 'notiflix';
+
 let nameRequest = '';
 
 changeTheme();
