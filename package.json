@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://MaksymKonin.github.io/project02-news",
+  "homepage": "https://HoneATCS.github.io/project02-news",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /project02-news/"
